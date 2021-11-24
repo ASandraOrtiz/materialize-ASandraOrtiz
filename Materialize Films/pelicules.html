@@ -241,7 +241,9 @@
         /* Carrusel */
         document.addEventListener("DOMContentLoaded", function(){
            var imgs = document.querySelectorAll('.carousel');
-           var instances = M.Carousel.init(imgs);
+           var instances = M.Carousel.init(imgs, {
+               numVisible: 7
+           });
         });
 
     </script>
